@@ -1,0 +1,76 @@
+.wrap {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background: rgba(255, 255, 255, .7);
+    height: inherit;
+}
+
+.header {
+    height: 198px;
+    background-color: azure;
+}
+
+.Hb1 {
+    height: 48px;
+    background-color: antiquewhite;
+}
+
+.Hb2 {
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.Hb3 {
+    height: 100px;
+    background-color: rgb(71, 168, 136);
+}
+
+.main {
+    height: 4798px;
+    background-color: beige;
+}
+
+.Mb_1 {
+    height: 884px;
+    background-color: blue;
+}
+
+.Mb_2 {
+    height: 884px;
+    background-color: rgb(48, 48, 248);
+}
+
+.Mb_3 {
+    height: 884px;
+    background-color: rgb(135, 135, 250);
+}
+
+.Mb_4 {
+    height: 884px;
+    background-color: rgb(147, 147, 248);
+}
+
+.Mb_5 {
+    height: 884px;
+    background-color: rgb(181, 181, 255);
+}
+
+.Mb_6 {
+    height: 378px;
+    background-color: blueviolet;
+}
+
+.footer {
+    height: 332px;
+    background-color: brown;
+}
+
+.Fb {
+    height: 332px;
+    background-color: rgb(221, 106, 106);
+}
