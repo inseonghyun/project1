@@ -1,76 +1,119 @@
+@charset "utf-8";
+
+
 .wrap {
     width: 100%;
 }
 
-.container {
+.inner {
     width: 100%;
-    max-width: 1440px;
-    margin: auto;
-    background: rgba(255, 255, 255, .7);
+    max-width: 1280px;
+    min-width: 320px;
+    margin: 0 auto;
     height: inherit;
 }
 
-.header {
-    height: 198px;
-    background-color: azure;
+.flexbox {
+    display: flex;
 }
 
-.Hb1 {
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+
+.plug_in {
+    width: 100%;
     height: 48px;
-    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Nanum Gothic';
+    background-color: #0c82e9;
+    font-weight: 400;
+    color: #222;
+    font-style: normal;
+    line-height: 1.35em;
 }
 
-.Hb2 {
-    height: 50px;
-    background-color: aquamarine;
+.plug_inner {
+    position: relative;
+    max-width: 1152px;
+    height: 48px;
+    margin: 0 auto;
 }
 
-.Hb3 {
-    height: 100px;
-    background-color: rgb(71, 168, 136);
+.plug_inner>p {
+    float: left;
+    width: 97.5px;
+    height: 18.5px;
+    padding: 0;
+    margin: 8px 0 0 0;
 }
 
-.main {
-    height: 4798px;
-    background-color: beige;
+.seoul_logo a {
+    background: url(../img/icon/icon_set_common.png)no-repeat -122px -165px;
+    display: block;
+    width: 105px;
+    height: 27px;
 }
 
-.Mb_1 {
-    height: 884px;
-    background-color: blue;
+
+
+
+.news {
+    position: absolute;
+    top: 0;
+    right: 290px;
+    left: 179px;
+    height: 48px;
 }
 
-.Mb_2 {
-    height: 884px;
-    background-color: rgb(48, 48, 248);
+
+
+
+ul.news li a:last-child {
+    display: block;
+    width: 100%;
+    height: 48px;
+    background-image: none;
+    font-size: 14px;
+    line-height: 48px;
+    color: #fff;
 }
 
-.Mb_3 {
-    height: 884px;
-    background-color: rgb(135, 135, 250);
+
+.sound_logo {
+    background: url(../img/icon/ico-sprite-common-gnb.png)-21px -53px no-repeat;
+    background-size: 350px auto;
+    width: 19px;
+    height: 17px;
+    margin: -5px 0 0 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 0
 }
 
-.Mb_4 {
-    height: 884px;
-    background-color: rgb(147, 147, 248);
+.plug_in ul:last-child {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-.Mb_5 {
-    height: 884px;
-    background-color: rgb(181, 181, 255);
-}
 
-.Mb_6 {
-    height: 378px;
-    background-color: blueviolet;
-}
-
-.footer {
-    height: 332px;
-    background-color: brown;
-}
-
-.Fb {
-    height: 332px;
-    background-color: rgb(221, 106, 106);
+.news2 li a {
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    padding-left: 15px;
+    font-weight: 700;
 }
